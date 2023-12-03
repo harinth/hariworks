@@ -7,7 +7,7 @@
 //     </li>
 //   );
 // };
-const CoreConcepts = ({image, title, description}) => {
+const CoreConcept = ({image, title, description}) => {
     return (
       <li>
         <img src={image} />
@@ -16,4 +16,4 @@ const CoreConcepts = ({image, title, description}) => {
       </li>
     );
 };
-export default CoreConcepts;
+export default CoreConcept;
